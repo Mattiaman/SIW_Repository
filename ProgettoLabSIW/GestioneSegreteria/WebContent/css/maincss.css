@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+	background: gray;
+	color: white;
+}
+
+article {
+	color: white;
+}
+
+article > header {
+	text-align: center;
+}
+
+thead {
+	color: red;
+	
+}
+
+label {
+	color: white;
+}
+
+input {
+	color: black;
+}

@@ -1,0 +1,122 @@
+<html>
+<head lang="it">
+<title>Gestione Segreteria Studenti</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<LINK rel="stylesheet" href="../css/maincss.css" type="text/css">
+</head>
+<body>
+<header>
+<h1>Elenco Corsi di Laurea</h1>
+<h2>Portale per la gestione degli studenti afferenti a qualche corso di laurea</h2>
+</header>
+
+<!-- menu -->
+	<nav id="cssmenu" role="navigation" class="navbar navbar-inverse">
+		<div class="navbar-header">
+    	  <a class="navbar-brand" href="../Index.html">Home</a>
+    	</div>
+		<div class="container-fluid">
+			<ol class="nav navbar-nav">
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						Studenti </a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="../report/studenti.html">Lista
+								Studenti</a></li>
+						<li><a class="dropdown-item" href="../iscriviStudente.html">Iscrivi
+								uno studente</a></li>
+						<li><a class="dropdown-item" href="../servizi/isee.html">Calcola
+								ISEE</a></li>
+					</ul></li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						Gruppi </a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="../report/gruppi.html">Soli
+								nominativi</a></li>
+						<li><a class="dropdown-item"
+							href="report/studentiPerGruppo.html">Studenti per Gruppo</a></li>
+					</ul></li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						Indirizzi </a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="../report/indirizzi.html">Soli
+								nominativi</a></li>
+						<li><a class="dropdown-item"
+							href="../report/studentiPerIndirizzo.html">Studenti per
+								Indirizzo</a></li>
+					</ul></li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						Corsi </a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="../report/corsi.html">Soli
+								nominativi</a></li>
+						<li><a class="dropdown-item"
+							href="../report/corsiECorsiDiLaurea.html">Nominativi e Corsi di
+								Laurea</a></li>
+						<li><a class="dropdown-item"
+							href="../report/corsiConStudentiIscritti.html">Corsi e Studenti
+								iscritti</a></li>
+					</ul></li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						Corsi di Laurea </a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="../report/corsiDiLaurea.html">Nominativi
+								e Dipartimento</a></li>
+					</ul></li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						Dipartimenti </a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="../report/dipartimenti.html">Nominativi</a></li>
+						<li><a class="dropdown-item"
+							href="../report/dipartimentiECorsiDiLaurea.html">Corsi di Laurea</a></li>
+					</ul></li>
+			</ol>
+		</div>
+	</nav>
+	<!-- fine menu -->
+
+
+<table class="table">
+<caption>Nominativi dei Corsi di Laurea</caption>
+<thead>
+<tr>
+	<th>Codice</th>
+	<th>Nome</th>	
+	<th>Dipartimento</th>	
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>1</td>
+	<td>Informatica</td>	
+	<td>Matematica e Informatica</td>	
+</tr>
+
+<tr>
+	<td>2</td>
+	<td>Ingegneria Informatica</td>
+	<td>Ingegneria Informatica, Modellistica, Elettronica e Sistemistica</td>	
+</tr>
+</tbody>
+<tfoot>
+<tr>
+	<td><a href="">Ordina per Codice</a></td>
+	<td><a href="">Ordina per Nome</a></td>	
+	<td><a href="">Ordina per Dipartimento</a></td>	
+</tr>
+</tfoot>
+</table>
+
+
+
+</body>
+</html>
